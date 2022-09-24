@@ -106,7 +106,7 @@ describe(requirement(13), () => {
   })
 });
 
-describe(requirement(14), () => {
+describe.skip(requirement(14), () => {
   const cards = products.state01;
 
   test("O avaliador testará se os dados de cada card condizem com os dados esperados",
@@ -245,7 +245,7 @@ describe(requirement(15), () => {
   });
 });
 
-describe(requirement(16), () => {
+describe.only(requirement(16), () => {
   test("O avaliador testará a existência de um botão de carrinho com um valor total válido e que seja capaz de nos direcionar a tela de checkout", async () => {
     const itemList = action.customer.getRandomProducts();
     showCurrentCart(itemList, global.__TESTDESC__);
