@@ -103,5 +103,5 @@ Back-end:
 ## 📌 Credits 
 - <p><a href="https://www.linkedin.com/in/davifreitass/">Davi Freitas</a></p>
 - <p><a href="https://www.linkedin.com/in/paula-salino-ribeiro/">Paula Ribeiro</a></p>
-- <p><a href="https://www.linkedin.com/in/">Lucas</a></p>
-- <p><a href="https://www.linkedin.com/in/">Lucas</a></p>
+- <p><a href="https://www.linkedin.com/in/lucas-lopes-caldas/">Lucas Lopes</a></p>
+- <p><a href="https://github.com/IgorHamzi">Igor Hamzi</a></p>
