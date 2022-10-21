@@ -24,10 +24,10 @@ Este projeto foi feito enquanto estudava na @betrybe.
   </summary>
 
 Front-end:
-  > Desenvolvido usando: React, Context, CSS3, HTML5, ES6, Styled Components
+  > Desenvolvido usando: React, Context, CSS3, ES6, Styled Components
   
 Back-end:
-  > Desenvolvido usando: NodeJS, ExpressJS, Sequelize, MYSQL, Typescript
+  > Desenvolvido usando: NodeJS, ExpressJS, Sequelize, MySQL, Typescript
 
 </details>
 
