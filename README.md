@@ -1,6 +1,10 @@
+# Delivery App
+
+## 📝 Introdução
+
 App de delivery(front-end e back-end) para uma distribuidora de bebidas. 🍻
-  
-  Projeto em grupo realizado na Trybe.
+
+Este projeto foi feito enquanto estudava na @betrybe.
 
   Contexto:
 
@@ -14,8 +18,37 @@ App de delivery(front-end e back-end) para uma distribuidora de bebidas. 🍻
   - Fazer a comunicação entre clientes e pessoas vendedoras: a pessoa cliente faz o pedido via "carrinho de compras" e a pessoa vendedora aprova, prepara e envia esse pedido. Quando o produto é recebido por quem comprou, essa pessoa marca o pedido como "recebido". Ambos devem possuir detalhes sobre seus pedidos;
   - Se a pessoa cliente faz o pedido, o mesmo deve aparecer para a pessoa vendedora em seu dash de pedidos após a atualização da página. A pessoa cliente, por sua vez, deve ter as informações sobre seu pedido quando sua página for atualizada, ou seja, ter informações se o pedido está sendo preparado ou se já saiu pra entrega;
 
+<details>
+  <summary>
+    <strong> :wrench: Técnologias usadas </strong>
+  </summary>
+
+Front-end:
+  > Desenvolvido usando: React, Context, CSS3, HTML5, ES6, Styled Components
+  
+Back-end:
+  > Desenvolvido usando: NodeJS, ExpressJS, Sequelize, MYSQL, Typescript
+
+</details>
 
 <details>
+  <summary>
+     <strong> 🎓 Orientações - Rodando o Projeto </strong>
+   </summary>
+
+### Desenvolvimento
+:warning: Troque o `.env.example` por `.env` e o configure.
+ 
+> Backend (local via Docker)
+  - `docker-compose up -d`.
+  - `docker exec -it nome_do_container bash`.
+
+> Frontend (local via Docker)
+  - `docker-compose up -d`.
+  - `docker exec -it nome_do_container bash`.
+  -  `npm run dev`.
+ 
+ <details>
   <summary>
     <strong>🪛 Scripts relevantes do <code>package.json</code> principal</strong>
   </summary><br>
@@ -53,3 +86,22 @@ App de delivery(front-end e back-end) para uma distribuidora de bebidas. 🍻
     - *uso (na raiz do projeto): `npm run test:dev:report`, `npm run test:dev:report "01login 02register"` ou ainda `npm run test:dev:report "01 02"`*;
 
 </details>
+
+</details>
+
+## 📌 Recursos | ToDo list
+      
+- [x] Tela de Login
+- [x] Tela de Registro
+- [x] Tela Produtos
+- [x] Tela de Checkout
+- [x] Tela de Pedidos (Cliente)
+- [x] Tela de Pedidos (Vendedor)
+- [x] Tela de detalhes do Pedido (Cliente)
+- [x] Tela de detalhes do Pedido (Vendedor)
+
+## 📌 Credits 
+- <p><a href="https://www.linkedin.com/in/davifreitass/">Davi Freitas</a></p>
+- <p><a href="https://www.linkedin.com/in/paula-salino-ribeiro/">Paula Ribeiro</a></p>
+- <p><a href="https://www.linkedin.com/in/">Lucas</a></p>
+- <p><a href="https://www.linkedin.com/in/">Lucas</a></p>
